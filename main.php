@@ -1,9 +1,9 @@
 <?php
 
-require_once('Parse.php');
+require_once('ExpressionParser.php');
 
 /**
- * This simply demonstrates the behavior of the infix expression parser.
+ * The main program simply demonstrates the behavior of the infix expression parser.
  *
  * TODO:
  * - Add support for expression tree output in .dot format.

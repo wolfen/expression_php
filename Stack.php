@@ -23,6 +23,9 @@ class Stack {
   }
 
   public function top() {
+    if (count($this->Items) == 0) {
+      return null;
+    }
     return $this->Items[count($this->Items)-1];
   }
 
